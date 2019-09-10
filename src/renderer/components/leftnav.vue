@@ -6,10 +6,10 @@
 
 				<div class="field is-grouped">
   				<p class="control is-expanded">
-    				<input class="input" type="text" placeholder="Find course material">
+    				<input class="input edgy" type="text" placeholder="Find course material">
   				</p>
   				<p class="control">
-    				<a class="button is-success">
+    				<a class="button is-success edgy">
       				Search
     				</a>
   				</p>
@@ -18,12 +18,6 @@
 				<div class="directions">
 					<router-link to="/all/programs">
 						All Programs
-					</router-link>
-					<router-link to="/all/contribute">
-						Contribute
-					</router-link>
-					<router-link to="/all/programs">
-						Settings
 					</router-link>
 				</div>
 
@@ -53,6 +47,7 @@ export default {
 .directions a {
 	color: #fff;
 }
+
 </style>
 
 

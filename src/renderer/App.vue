@@ -15,4 +15,7 @@ export default {
 ::-webkit-scrollbar {
     display: none;
 }
+.edgy {
+	border-radius: 0!important;
+}
 </style>
